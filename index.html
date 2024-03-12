@@ -1,45 +1,163 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Angel Manatad - Personal Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+<title> ANGEL'S portfolio </title>
+<style>
+body {
+margin: 0;
+padding: 0;
+
+}
+.hover ul {
+display: flex;
+padding: 7px;
+justify-content: space-between;
+list-style: none;
+           }
+.hover ul a {
+text-decoration: none;
+color: blue;
+    }
+.container {
+text-align: center;
+background-color: white; 
+padding: 20px;
+    }
+.container img {
+width: 220px;
+height: 220px;
+border-radius: 50%;
+object-fit: cover;
+object-position: center;
+margin-top: 20px;
+    }
+ .container h1 {
+ color: blue;
+animation: slideFromLeft 5s ease infinite;
+    }
+.container p {
+color: red;
+font-family: monospace;
+font-size: 15px;
+letter-spacing: 3px;
+animation: slideFromLeft 5s ease infinite;
+    }
+    
+.container button{background-color: blue;
+  color:white;
+  padding: 9px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 8px;
+  cursor: pointer;
+  border:  solid white;
+  border-radius: 20px;  
+  text-decoration:none;
+  
+}     
+ 
+ 
+.mid{
+    background-color:#ffe91e63
+} 
+
+.mid button{background-color: blue;
+  color:white;
+  padding: 9px 25px;
+  text-align:center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 8px;
+  cursor: pointer;
+  border:  solid white;
+  border-radius: 20px;  
+  
+} 
+
+.bottom{
+    background-color: lightblue;
+    padding:00px;
+    margin:00;
+}    
+input{padding:5px;
+      
+}
+
+
+@keyframes slideFromLeft {
+0% {
+opacity: 0;
+transform: translateX(-100%);
+      }
+50% {
+opacity: 1;
+transform: translateX(0);
+      }
+100% {
+opacity: 0;
+transform: translateX(100%);
+      }
+    }
+</style>
 </head>
 <body>
-  <header>
-    <h1>Angel Manatad</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo, velit eget laoreet tempus, odio orci volutpat nisl, ut laoreet nunc massa ac velit.</p>
-  </section>
-  <section id="services">
-    <h2>Services</h2>
-    <ul>
-      <li>Service 1</li>
-      <li>Service 2</li>
-      <li>Service 3</li>
-    </ul>
-  </section>
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <ul>
-      <li><a href="project1.html">Project 1</a></li>
-      <li><a href="project2.html">Project 2</a></li>
-      <li><a href="project3.html">Project 3</a></li>
-    </ul>
-  </section>
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: andersoncoper@example.com</p>
-    <p>Phone: 555-555-5555</p>
-  </section>
+<div class="container">
+<img src="https://scontent-mnl1-1.xx.fbcdn.net/v/t39.30808-6/316263474_5860826827271852_6661412037736685060_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGByk0m36BFd-k-yzU9EMzcyL2cTNm1wDHIvZxM2bXAMbpT3GaOgspxNn6k8FqLNvbANySXIvi6l8d-pfdSmeJH&_nc_ohc=uvDknJIWg_8AX-S7z9G&_nc_ht=scontent-mnl1-1.xx&oh=00_AfCGRRcFgRUPxLXU1EUofZkTk5km7EYHKKbb4urjbz5A2Q&oe=65F4F7A6" alt="hello">
+<h1>Hey, I'm Angel Manatad</h1>
+<p>A GRAPHIC DESIGNER</p>
+<br><br>
+<button type="button"> Get My Resume </button >
+</div>
+<br><br><br> <br><br>
+<div class="mid"> 
+<h1 style="padding:25px;text-decoration: underline;animation: slideFromLeft 5s ease infinite;"> ABOUT ME </h1>
+<p style="padding:25px;text-align:left;font-family:fantasy;word-spacing:7px;">
+<center>
+A Fullstack Developer
+Providing the best project experience
+Hey there, I'm Alison pinto, a Full Stack Software Developer with experience in Website, Mobile, and Software development. Check out my projects and skills.
+
+Learn More!
+work icons
+Think better with Next js 13
+Making apps with modern technologies
+Never miss a task, deadline or idea
+skill image
+Performance & Security
+Lock topLock Main
+Encryption
+Secure your data with end-to-end encryption
+About Me.</p>
+<button type="button"> know more about me</button >
+
+</div>
+
+<div class="bottom"> 
+</div> 
+<h1 style="padding:25px;text-decoration: underline; slideFromLeft 5s ease infinite;"> CONTACT ME</h1>
+
+<p style="padding:25px;text-align:left;font-family:fantasy;word-spacing:7px">
+"Have a thrilling project on your mind? Let's turn it into reality together!
+<br><br>
+I'm passionate about diving into fresh concepts and bringing them to life. If you're looking for someone enthusiastic to collaborate on your project, I'm all ears! Don't hesitate to reach out; I'd love to explore your ideas and discuss how we can make them flourish."
+</p>
+
+<form>
+ Name:-
+ <input type="text" placeholder="NAME"><br><br>
+ Email:-
+ <input type="email" placeholder="Email"><br><br>
+ Ph.no:-
+ <input type="tel" placeholder="Mobile">
+ <br><br>
+  <input type="Submit" style="background-color:blue;color:white;padding:6px 80px;border-radius:30px;border: solid blue;font-size:15px">
+</form> 
+<br>
+
 </body>
 </html>
+
